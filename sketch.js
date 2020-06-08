@@ -43,10 +43,9 @@ function draw() {
 
 
    if(hasCollided(bullet,wall)){
-     bullet.velocityX=0;
 
      bullet.visible=false;
-     
+
      var damage=speed*weight*speed/(thickness*thickness*thickness);
 
      if(damage>10){
@@ -60,7 +59,6 @@ function draw() {
     }
 
     if(hasCollided2(bullet2,wall2)){
-      bullet2.velocityX=0;
 
       bullet2.visible=false;
 
@@ -77,7 +75,6 @@ function draw() {
      }
 
      if(hasCollided3(bullet3,wall3)){
-      bullet3.velocityX=0;
 
       bullet3.visible=false;
 

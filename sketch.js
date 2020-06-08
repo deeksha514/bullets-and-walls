@@ -7,8 +7,8 @@ var wall,wall2,wall3;
 function setup() {
  createCanvas(1600,400);
 
- bullet= createSprite(50, 200, 30, 10);
- bullet2=createSprite(50,120,30,10);
+ bullet= createSprite(50, 120, 30, 10);
+ bullet2=createSprite(50,200,30,10);
  bullet3=createSprite(50,280,30,10);
 
  thickness=random(22,63);
